@@ -63,7 +63,7 @@
         End If
         For 月_循环 As Short = -平年判定(年号) To 平年月数 'Visual Basic .Net中，Boolean型的True转换为数值型的-1
             年历内容.Text &= 月转换(月_循环) & "月"
-            If 小月判定(月_循环) Then
+            If 小月判定(年月日查询_月(年号, 月_循环) Mod 月周期) Then
                 年历内容.Text &= "小" & vbCrLf
             Else
                 年历内容.Text &= "大" & vbCrLf

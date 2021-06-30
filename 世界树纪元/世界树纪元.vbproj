@@ -4,10 +4,26 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>世界树纪元</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>世界树纪元.主窗体</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <Platforms>AnyCPU;x64</Platforms>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1</Version>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <Authors>昔音幻离</Authors>
+    <Company>幼喵园</Company>
+    <Description>World_Tree_Anno是世界树纪元官方计算器，由Visual Basic .Net编写，带有简单的图形界面，暂时只支持.Net 5.0的Windows平台。</Description>
+    <Copyright>可以自由修改并发行，但修改部分也必须开源；修改部分与原作者无关。</Copyright>
+    <PackageProjectUrl>https://github.com/Kittengarten-Official/World_Tree_Anno</PackageProjectUrl>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/Kittengarten-Official/World_Tree_Anno</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageReleaseNotes>也可用源码自行编译支持其它平台的可执行文件。</PackageReleaseNotes>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,6 +44,10 @@
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\..\Downloads\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 
