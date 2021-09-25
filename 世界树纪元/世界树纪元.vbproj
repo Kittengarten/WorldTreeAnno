@@ -9,9 +9,9 @@
     <MyType>WindowsFormsWithCustomSubMain</MyType>
     <Platforms>AnyCPU;x64</Platforms>
     <SignAssembly>false</SignAssembly>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2</Version>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <Authors>昔音幻离</Authors>
     <Company>幼喵园</Company>
