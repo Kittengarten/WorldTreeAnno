@@ -72,8 +72,8 @@
     End Sub
     Private Shared Function 日查询月(日) As Long()
         Dim 月日号(1) As Long
-        Dim 月周期数 As Long = 日 \ 月周期日数
-        Dim 净日 As Short = 日 Mod 月周期日数
+        Dim 月周期数 As Long = (日 - 1) \ 月周期日数
+        Dim 净日 As Short = (日 - 1) Mod 月周期日数 + 1
         Dim 月周期内月数 As Short = 1
         Do Until 净日 < 月周期内首日日(月周期内月数 + 1)
             月周期内月数 += 1
@@ -87,8 +87,8 @@
     End Function
     Private Shared Function 月查询年(月) As Long()
         Dim 年月号(1) As Long
-        Dim 年周期数 As Long = 月 \ 年周期月数
-        Dim 净月 As Short = 月 Mod 年周期月数
+        Dim 年周期数 As Long = (月 - 1) \ 年周期月数
+        Dim 净月 As Short = (月 - 1) Mod 年周期月数 + 1
         Dim 年周期内年数 As Short = 1
         Do Until 净月 < 年周期内首月月(年周期内年数 + 1)
             年周期内年数 += 1
