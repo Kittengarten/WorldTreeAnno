@@ -2,7 +2,7 @@
 
 ## WorldTreeAnno
 
-World_Tree_Anno是世界树纪元官方计算器，由`Visual Basic .NET`编写，带有简单的图形界面，暂时只支持`.NET 5.0`的`Windows x64`平台。
+WorldTreeAnno是世界树纪元官方计算器，由`Visual Basic .NET`编写，带有简单的图形界面，暂时只支持`.NET 5.0`的`Windows x64`平台。
 
 > 也可用源码自行编译支持其它平台的可执行文件。
 
